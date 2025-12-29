@@ -1,5 +1,4 @@
-{
-  "doctors": [
+[
     {
       "id": 1,
       "image": "https://i.pravatar.cc/300?img=1",
@@ -109,4 +108,4 @@
       "registration_number": "BMDC-45012"
     }
   ]
-}
+
