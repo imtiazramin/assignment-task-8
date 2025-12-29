@@ -25,7 +25,7 @@ const Nevber = () => {
       </ul>
     </div>
     
-    <a className="btn btn-ghost text-xl"> Phudu</a>
+    <a className="btn btn-ghost text-xl"><img className='w-6' src="https://i.ibb.co.com/mCppCYMK/logo.png" alt="" /> Phudu</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
