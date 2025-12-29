@@ -31,7 +31,7 @@ const Banner = ({data}) => {
             </div>
         </div>
 
-        <div>
+        <div className=' grid lg:grid-cols-3 md:grid-cols-2 w-11/12 m-auto '>
             {
                 data.map(doctors=><Doctors key={doctors.id} doctors={doctors}></Doctors>)
             }

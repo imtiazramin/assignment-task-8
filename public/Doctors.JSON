@@ -1,110 +1,110 @@
 [
     {
       "id": 1,
-      "image": "https://i.pravatar.cc/300?img=1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGReVOtCUWNARYamWZ6A-NJD-ilErcm_dW_A&s",
       "name": "Dr. Ahsan Rahman",
       "education": "MBBS, FCPS (Cardiology)",
       "speciality": "Cardiologist",
-      "experience": "12 Years",
+      "experience": "12+ Years Experience",
       "registration_number": "BMDC-45001"
     },
     {
       "id": 2,
-      "image": "https://i.pravatar.cc/300?img=2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiNID8QK50NFgDMq4svk7SW3ZY5BiMQImtZA&s",
       "name": "Dr. Nusrat Jahan",
       "education": "MBBS, FCPS (Gynecology)",
       "speciality": "Gynecologist",
-      "experience": "9 Years",
+      "experience": "9+ Years Experience",
       "registration_number": "BMDC-45002"
     },
     {
       "id": 3,
-      "image": "https://i.pravatar.cc/300?img=3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy4Sb8CnpGmNyAiJbMiANTP-yIwZsOTGiyYA&s",
       "name": "Dr. Mahmud Hasan",
       "education": "MBBS, MS (Orthopedics)",
-      "speciality": "Orthopedic Surgeon",
-      "experience": "15 Years",
+      "speciality": "Orthopedic",
+      "experience": "15+ Years Experience",
       "registration_number": "BMDC-45003"
     },
     {
       "id": 4,
-      "image": "https://i.pravatar.cc/300?img=4",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSng-nBLZCTm_TJo4K2zNz4U1ESGpB4kyHI2w&s",
       "name": "Dr. Farzana Akter",
       "education": "MBBS, DDV",
       "speciality": "Dermatologist",
-      "experience": "7 Years",
+      "experience": "7+ Years Experience",
       "registration_number": "BMDC-45004"
     },
     {
       "id": 5,
-      "image": "https://i.pravatar.cc/300?img=5",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrhigTnNWyRKYvtcn_8kc0A5UMprcU8G3Wyg&s",
       "name": "Dr. Saiful Islam",
       "education": "MBBS, MD (Neurology)",
       "speciality": "Neurologist",
-      "experience": "11 Years",
+      "experience": "11+ Years Experience",
       "registration_number": "BMDC-45005"
     },
     {
       "id": 6,
-      "image": "https://i.pravatar.cc/300?img=6",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5B1BtHSqML9_ofxlybofX-jnRAs7i53mpyA&s",
       "name": "Dr. Tania Sultana",
       "education": "MBBS, DCH",
       "speciality": "Pediatrician",
-      "experience": "8 Years",
+      "experience": "8+ Years Experience",
       "registration_number": "BMDC-45006"
     },
     {
       "id": 7,
-      "image": "https://i.pravatar.cc/300?img=7",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnebrXWR9QrstpZpUegAwb6IAI_dwKc9DEw&s",
       "name": "Dr. Kamrul Hossain",
       "education": "MBBS",
-      "speciality": "General Physician",
-      "experience": "6 Years",
+      "speciality": "General ",
+      "experience": "6+ Years Experience",
       "registration_number": "BMDC-45007"
     },
     {
       "id": 8,
-      "image": "https://i.pravatar.cc/300?img=8",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD7zUGy9RZmoYBSSstDQWbRYDK8WuJTfxGxg&s",
       "name": "Dr. Rashed Chowdhury",
       "education": "MBBS, DLO",
       "speciality": "ENT Specialist",
-      "experience": "10 Years",
+      "experience": "10+ Years Experience",
       "registration_number": "BMDC-45008"
     },
     {
       "id": 9,
-      "image": "https://i.pravatar.cc/300?img=9",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8LDL6s6gBxIJrDvS7ck_33LN5qS6v3a4kgA&s",
       "name": "Dr. Momena Khatun",
       "education": "MBBS, MD (Endocrinology)",
-      "speciality": "Endocrinologist",
-      "experience": "13 Years",
+      "speciality": "Physician",
+      "experience": "13+ Years Experience",
       "registration_number": "BMDC-45009"
     },
     {
       "id": 10,
-      "image": "https://i.pravatar.cc/300?img=10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlMQGwxq6NXekUg9sSRYy-hBX3dix5O4ugPw&s",
       "name": "Dr. Imran Kabir",
       "education": "MBBS, MS (Urology)",
       "speciality": "Urologist",
-      "experience": "14 Years",
+      "experience": "14+ Years Experience",
       "registration_number": "BMDC-45010"
     },
     {
       "id": 11,
-      "image": "https://i.pravatar.cc/300?img=11",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg9U-VXQU8TXAkjXkQrkBdlwvspHnujjkeYg&s",
       "name": "Dr. Shaila Noor",
       "education": "MBBS, MD (Psychiatry)",
       "speciality": "Psychiatrist",
-      "experience": "9 Years",
+      "experience": "9+ Years Experience",
       "registration_number": "BMDC-45011"
     },
     {
       "id": 12,
-      "image": "https://i.pravatar.cc/300?img=12",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Ym9rqon4eALdkChUlET-9M25xPDZE_Z4Qg&s",
       "name": "Dr. Anwar Hossain",
       "education": "MBBS, MD (Oncology)",
       "speciality": "Oncologist",
-      "experience": "16 Years",
+      "experience": "16+ Years Experience",
       "registration_number": "BMDC-45012"
     }
   ]
