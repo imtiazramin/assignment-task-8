@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   
     return (
-        <footer className="footer footer-horizontal footer-center  bg-amber-400  p-10">
+        <footer className="footer footer-horizontal footer-center  bg-white  p-10">
   <aside>
      <a className="btn btn-ghost text-xl"><img className='w-6' src="https://i.ibb.co.com/mCppCYMK/logo.png" alt="" /> Phudu</a>
     <div className='flex items-center'>
@@ -14,7 +14,9 @@ const Footer = () => {
     </div>
    
   </aside>
- 
+ <div className='border w-4/6 border-gray-300'>
+
+ </div>
   <nav >
     <div className="grid grid-flow-col gap-4">
       <a>

@@ -1,12 +1,13 @@
 import React from 'react';
 import Doctors from '../Doctors/Doctors';
+import Count from '../Count/Count';
 
 const Banner = ({data}) => {
    
     return (
         <div>
             <div>
-            <div className=' w-11/12 mx-auto my-3.5 py-10 border-4 rounded-2xl  border-white'>
+            <div className=' w-11/12 mx-auto  mb-3.5 py-10 border-x-4 border-b-4 rounded-2xl  bg-gray-50 border-white'>
                 <div>
                     <h1 className='text-3xl font-bold mb-5 text-center mx-auto w-2xl'>Dependable Care, Backed by Trusted  Professionals.</h1>
                     <p className=' mb-5 text-center mx-auto w-5xl'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
@@ -15,8 +16,8 @@ const Banner = ({data}) => {
                     <input className='bg-white lg:w-96 border-gray-600 py-3 rounded-3xl px-5 ' type="search" name="search" id="" placeholder='Search any doctor...' />
                     <input className=' rounded-3xl ml-3.5 bg-blue-500 py-2 px-3' type="submit" value="Search Now" />
                 </div>
-                <div className='flex justify-center items-center gap-5'>
-                    <img className='w-90 rounded-2xl' src="https://cdn.prod.website-files.com/66bd394eedeb9d6ee29898c6/682f5450a046c241920c1e6f_Three%20doctors%20standing%20side%20by%20side%2C%20crossing%20their%20arms.jpg" alt="" />
+                <div className='md:flex justify-center  items-center gap-5'>
+                    <img className='w-90 rounded-2xl mb-4' src="https://cdn.prod.website-files.com/66bd394eedeb9d6ee29898c6/682f5450a046c241920c1e6f_Three%20doctors%20standing%20side%20by%20side%2C%20crossing%20their%20arms.jpg" alt="" />
                     <img className='w-90 rounded-2xl' src="https://www.praktischarzt.de/wp-content/uploads/2023/03/Becoming-a-medical-doctor-or-physician-in-Germany.jpg" alt="" />
                     
                 </div>
@@ -35,6 +36,9 @@ const Banner = ({data}) => {
             {
                 data.map(doctors=><Doctors key={doctors.id} doctors={doctors}></Doctors>)
             }
+        </div>
+        <div>
+            <Count></Count>
         </div>
         </div>
     );

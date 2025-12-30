@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Doctors = ({ doctors }) => {
-    console.log(doctors)
-    const { name, education, experience, image, registration_number, speciality } = doctors
+const Doctors = ({doctors}) => {
+        const { name, education, experience, image, registration_number, speciality } = doctors
+
     return (
-        <div className='card p-8 shadow-2xl bg-white mb-10 w-96 shadow-white'>
+         <div className='card p-8 shadow-2xl bg-white mb-10 w-96 shadow-white'>
             <div>
                 <div>
                     <img className='h-44 rounded-2xl mb-3.5 w-full ' src={image} alt="" />
