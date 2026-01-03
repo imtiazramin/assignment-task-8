@@ -1,4 +1,9 @@
-[
+
+// import { useLoaderData } from 'react-router';
+import { useParams } from 'react-router';
+import DoctorDetails from '../DoctorDetails/DoctorDetails';
+
+const data=[
     {
       "id": 1,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGReVOtCUWNARYamWZ6A-NJD-ilErcm_dW_A&s",
@@ -143,3 +148,30 @@
     }
   ]
 
+
+const Doctor = () => {
+    const {id}=useParams();
+    const doctorId=parseInt(id);
+    //  const data=useLoaderData();
+     const singleDoctor = data.find(doc => doc.id === doctorId)
+    
+     
+    return (
+         <div className='w-8/12 mx-auto bg-white rounded-2xl py-7 px-10 my-14'>
+            <div className='flex items-center justify-between'>
+                <div>
+                    <h1 className='font-bold'>{singleDoctor.name}</h1>
+                    <h3 className='my-1.5 text-gray-600'>{singleDoctor.education}</h3>
+                </div>
+                <div>
+                    <p className='my-1.5 text-gray-600'>Appointment Fee : {singleDoctor.consultation_fee} + Vat</p>
+                </div>
+               
+            </div>
+           
+             <button className='text-red-500 border-2 my-2.5 rounded-3xl w-full py-2'>Cancel Appointment</button>
+        </div>
+    );
+};
+
+export default Doctor;

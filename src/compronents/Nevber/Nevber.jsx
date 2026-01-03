@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+
 const Nevber = () => {
  const links=<>
- <li className='mx-2.5'>Home</li>
-      <li className='mx-2.5'>My-Bookings</li>
-        <li className='mx-2.5'>Blogs</li>
-        <li className='mx-2.5'>contact Us</li>
+
+ <Link to="/"><li className='mx-2.5 hover:underline'>Home</li></Link>
+ <Link to="/MyBookings"><li className='mx-2.5 hover:underline'>My-Bookings </li></Link>
+ <Link to="/Blogs"><li className='mx-2.5 hover:underline'>Blogs </li></Link>
+      
+        
+        <li className='mx-2.5 hover:underline'>contact Us</li>
  </>
     return (
         <div className="navbar  bg-gray-50 shadow-sm">
@@ -28,7 +32,7 @@ const Nevber = () => {
     <a className="btn btn-ghost text-xl"><img className='w-6' src="https://i.ibb.co.com/mCppCYMK/logo.png" alt="" /> Phudu</a>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-1 ">
       {links}
     </ul>
   </div>
